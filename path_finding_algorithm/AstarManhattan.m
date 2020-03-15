@@ -1,4 +1,4 @@
-function [noeudsparcourus,chemin] = AstarMan(NodeList,RootNode,TargetNode,Map_plan2node)
+function [noeudsparcourus,chemin] = AstarManhattan(NodeList,RootNode,TargetNode,Map_plan2node)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 

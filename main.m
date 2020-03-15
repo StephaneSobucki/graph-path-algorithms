@@ -1,6 +1,6 @@
 clear all
 close all;
-
+addpath("data_structures/","path_finding_algorithm/", "scenario/");
 % Initialize the Plan with input values
 Obstacle=-1;Target = 0;Robot=1;Space=1;
 X_max=10;
@@ -73,7 +73,8 @@ pause(5);
 %stocker le temps d'execution dans une matrice 
 temps = zeros(4,5);
 figure
-for t = 1:4
+T = 0;
+for t = 1:T
     clf
     Plan2=CreateScenario(X_max,Y_max);
     % Generation of Map_plan2node

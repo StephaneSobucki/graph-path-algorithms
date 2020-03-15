@@ -1,4 +1,4 @@
-function [noeudsparcourus,chemin] = RechercheEnProfondeur(NodeList,RootNode,TargetNode)
+function [noeudsparcourus,chemin] = DepthFirstSearch(NodeList,RootNode,TargetNode)
 
 noeudsparcourus = 0;
 

@@ -1,4 +1,4 @@
-function [noeudsparcourus,chemin] = RechercheEnLargeur(NodeList,RootNode,TargetNode)
+function [noeudsparcourus,chemin] = BreadthFirstSearch(NodeList,RootNode,TargetNode)
 
 noeudsparcourus = 0;
 
